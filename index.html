@@ -1,10 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My DevOps Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps CI/CD Pipeline</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0f172a;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 120px;
+        }
+
+        h1 {
+            font-size: 50px;
+            color: #38bdf8;
+        }
+
+        p {
+            font-size: 22px;
+            margin-top: 20px;
+        }
+
+        .box {
+            background: #1e293b;
+            width: 60%;
+            margin: auto;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 20px rgba(56, 189, 248, 0.4);
+        }
+
+        .highlight {
+            color: #22c55e;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 40px;
+            color: #94a3b8;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Hello from Ansible 🚀</h1>
-    <p>This page was deployed using Ansible!</p>
+
+    <div class="container">
+        <div class="box">
+
+            <h1>🚀 CI/CD Pipeline Success</h1>
+
+            <p>
+                This website was automatically deployed using
+                <span class="highlight">Jenkins</span>,
+                <span class="highlight">Ansible</span>,
+                and
+                <span class="highlight">Docker</span>.
+            </p>
+
+            <p>
+                Deployment triggered directly from GitHub push webhook 🔥
+            </p>
+
+            <footer>
+                DevOps Project by Sanjay
+            </footer>
+
+        </div>
+    </div>
+
 </body>
 </html>
